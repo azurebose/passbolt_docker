@@ -14,9 +14,10 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 sudo docker-compose --version
 
-$ docker-compose -f docker-compose/docker-compose-ce.yaml up
+sudo docker-compose -f docker-compose/docker-compose-ce.yaml up
 
-$ docker run -e MYSQL_ROOT_PASSWORD= benny@!7678 \
+
+sudo docker run -e MYSQL_ROOT_PASSWORD= benny@!7678 \
              -e MYSQL_DATABASE= mariadb_database1 \
              -e MYSQL_USER= passbolt_user1 \
              -e MYSQL_PASSWORD= benny@!7678 \ mariadb
